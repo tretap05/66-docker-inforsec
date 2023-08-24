@@ -26,7 +26,6 @@ services:
     container_name: pg-admin3
     ports:
       - 8080:80
-      - 4433:443⁠
     environment:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
