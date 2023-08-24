@@ -23,7 +23,7 @@ services:
       - DATABASE_PASSWORD=${DATABASE_PASSWORD}
   pg:
     image: dpage/pgadmin4
-    container_name: pg-admin3
+    container_name: pg-admin
     ports:
       - 8080:80
     environment:
