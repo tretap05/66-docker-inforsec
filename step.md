@@ -1,3 +1,3 @@
     -'git add .'
-    -'git commit -m "first commit"'
+    -'git commnit -m "first commit"'
     -'git push'
