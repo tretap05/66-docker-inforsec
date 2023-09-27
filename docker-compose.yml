@@ -3,7 +3,7 @@ version: '3'
 services:
   db:
     image: postgres:14
-    container_name: my-dbb
+    container_name: my-db
     ports:
       - 12345:5432
     environment:
@@ -19,7 +19,7 @@ services:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
   strapi:
-    image: tretap/myapp1.0:latest
+    image: tretap/myapp:1.0.
     container_name: my-app
     ports:
       - 1337:1337
