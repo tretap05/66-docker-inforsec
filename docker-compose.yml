@@ -19,7 +19,7 @@ services:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
   strapi:
-    image: tretap/myapp:1.0.
+    image: tretapkhovintavong/titee:4.0
     container_name: my-app
     ports:
       - 1337:1337
